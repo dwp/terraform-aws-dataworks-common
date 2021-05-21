@@ -1,6 +1,6 @@
 locals {
   valid_environments = keys(local.environment_map)
-  validate_environment = index(local.valid_environments, var.environment_value)
+  validate_environment = index(local.valid_environments, var.tag_value_environment)
 
   environment_map = {
     development = "Dev"
