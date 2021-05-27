@@ -15,7 +15,7 @@ locals {
   common_tags_map = {
     Name             = ""
     Role             = ""
-    Environment      = var.tag_value_environment
+    Environment      = local.environment_map[var.tag_value_environment]
     Application      = "DataWorks"
     Function         = "Data and Analytics"
     CreatedBy        = "terraform"
