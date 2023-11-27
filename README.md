@@ -1,3 +1,5 @@
+# DO NOT USE THIS REPO - MIGRATED TO GITLAB
+
 # terraform-aws-dataworks-common
 A Terraform module to house common configuration for the DWP DataWorks team.
 
